@@ -1,0 +1,53 @@
+body {background-image: linear-gradient(rgb(243, 141, 197),rgb(198, 133, 214));}
+h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5;
+    word-spacing: 5;
+    font-weight: 700;
+position: relative;
+line-height: 170px;
+font-size: 100px;
+}
+h2 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;}
+
+.masked-text {
+    text-align: center;
+    color: transparent;
+    background-image: url('aura'); 
+    background-size: 100%; 
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-background 11s infinite alternate linear;
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.zoom-text {
+  text-indent: 45px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 10px 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(62, 31, 1);
+  display: inline-block; 
+  transition: transform 0.3s ease; 
+}
+.zoom-text:hover {
+  transform: scale(1.1); 
+}
+.answer {
+  width: 45%;
+  margin-left: 50%;
+}
+img:hover {
+  transform: scaleX(-1);
+}

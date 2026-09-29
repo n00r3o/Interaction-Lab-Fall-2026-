@@ -1,0 +1,32 @@
+body {background-image: linear-gradient(rgb(255, 225, 228),rgb(244, 126, 142));}
+h1 {font-size: 120px;
+color: rgb(99, 48, 113);
+letter-spacing: -0.110em;
+text-decoration: underline;
+line-height: 1em;}
+p {font-size: 27px;
+color: rgb(65, 37, 1);
+text-indent: 3em;}
+h2 {font-size: 60px;
+text-decoration: underline;
+letter-spacing: -0.05em;
+color: rgb(57, 87, 136);}
+h3 {font-size: 30px;
+color: rgb(191, 62, 107);
+letter-spacing: -0.05em;
+text-decoration: underline;}
+ol {font-size: 27px;
+color: rgb(65, 37, 1);
+}
+
+.button {
+    background-color: rgb(237, 203, 147);
+    color: rgb(92, 48, 4);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
