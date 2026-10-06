@@ -1,0 +1,83 @@
+body{ background-image:url(tablestar.jpg);}
+h1{
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 100px;
+  line-height: 10px;
+}
+
+h2 {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 100px;
+  
+}
+h3 {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 68px;
+}
+a {font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: antiquewhite;
+  text-align: center;
+  
+  font-size: 40px;}
+li {
+   font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 50px;
+ }
+.zoom-img {
+  display: inline-block; 
+  transition: transform 0.3s ease; 
+}
+.zoom-img:hover {
+  transform: scale(1.1); }
+
+  .zoom-text {
+  display: inline-block; 
+  transition: transform 0.3s ease; 
+}
+.zoom-text:hover {
+  transform: scale(1.1); }
+ 
+  .image-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step1 {
+    animation: wiggle 2s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: translateX(-15px) rotate(-1deg);
+    }
+
+    50% {
+        transform: translateX(15px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(-15px) rotate(-1deg);
+    }
+}
