@@ -129,7 +129,7 @@ left: 430px;
 .cloud4 ellipse:hover {
     transform: scale(1.7);
 }
-.text{
+.text1{
 width: 120px;
 color: #FFF;
 font-family: "Inria Serif";
@@ -140,5 +140,15 @@ line-height: normal;
 position: fixed;
 z-index: 4;
 top: 500px;
+left: 110px;
+}
+h3{
+
+color: #a17171;
+font-size: 12px;
+font-style: italic;
+position: fixed;
+z-index: 4;
+top: 10px;
 left: 110px;
 }
