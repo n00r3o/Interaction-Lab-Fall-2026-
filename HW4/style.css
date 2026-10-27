@@ -1,4 +1,6 @@
+*{cursor: none;}
 body {background-color: rgb(0, 0, 0);}
+
 
 
 .circle:hover {
@@ -147,3 +149,20 @@ body {
     transform: scale(1.2);
     transition-duration: 0.02s;
 }
+
+
+.bg-a { background-color: red; }
+.bg-b { background-color: blue; }
+.bg-c { background-color: green; }
+
+.circle {
+    /* stuff that is true for all circles */
+}
+.square {
+
+}
+
+/* <div class="circle bg-a"></div> */
+
+/* <div class="square bg-c"></div> */
+

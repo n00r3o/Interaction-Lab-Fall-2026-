@@ -1,0 +1,144 @@
+body{
+background: #764E4F;
+}
+body {
+  background: #764E4F;
+  margin: 0;
+}
+
+.painting {
+  position: absolute;
+  width: 551px;
+  height: 379px;
+  top: 35%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.frame { 
+width: 511px;
+height: 339px;
+border: 20px solid #3B2A15;
+background: #7A6558;
+position: fixed;
+z-index: 1;
+margin: 100px; ;
+}
+.eye {
+width: 431.5px;
+height: 224.394px;
+fill: #CECCC2;
+stroke-width: 9px;
+stroke: #32261A;
+position: fixed;
+z-index: 2;
+top: 185px;
+left: 175px;}
+.bottomlid {
+fill: #7A6558;
+stroke-width: 3px;
+stroke: #32261A;
+width: 422.5px;
+height: 109.638px;
+position: fixed;
+z-index: 3;
+top: 298.5px;
+left: 175px;
+}
+.toplid {
+width: 422px;
+height: 112.589px;
+fill: #7A6558;
+stroke-width: 3px;
+stroke: #32261A;
+position: fixed;
+z-index: 3;
+top: 187px;
+left: 177px;
+}
+.eyeedge{
+    width: 29.413px;
+height: 18.488px;
+fill: #513737;
+position: fixed;
+z-index: 2;
+top: 287px;
+left: 178px;
+}
+.iris{
+width: 220px;
+height: 220px;
+fill: #7A9FC7;
+position: fixed;
+z-index: 2;
+top: 187px;
+left: 285px;
+}
+.pupil{
+ width: 46px;
+height: 46px;
+fill: #000;
+position: fixed;
+z-index: 3;
+top: 277px;
+left: 370px;
+}
+.cloud1 {
+width: 85px;
+height: 45px;
+position: fixed;
+z-index: 3;
+top: 277px;
+left: 285px;
+}
+.cloud2 {
+width: 150px;
+height: 50px;
+position: fixed;
+z-index: 3;
+top: 220px;
+left: 350px;
+}
+.cloud3 {
+width: 100px;
+height: 45px;
+position: fixed;
+z-index: 4;
+top: 340px;
+left: 340px;
+}
+.cloud4 {
+width: 70px;
+height: 45px;
+position: fixed;
+z-index: 4;
+top: 295px;
+left: 430px;
+}
+.cloud1 ellipse,
+.cloud2 ellipse,
+.cloud3 ellipse,
+.cloud4 ellipse {
+    transition: transform 0.3s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.cloud1 ellipse:hover,
+.cloud2 ellipse:hover,
+.cloud3 ellipse:hover,
+.cloud4 ellipse:hover {
+    transform: scale(1.7);
+}
+.text{
+width: 120px;
+color: #FFF;
+font-family: "Inria Serif";
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: fixed;
+z-index: 4;
+top: 500px;
+left: 110px;
+}
